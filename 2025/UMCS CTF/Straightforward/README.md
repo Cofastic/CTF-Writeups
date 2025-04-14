@@ -1,6 +1,7 @@
 Straightforward
 ---------------
 ![chall](img/chall.png)
+
 "Straightforward" is a web exploitation challenge that provides the source code of the web application in a zip file named "straightforward\_player.zip" along with the challenge website URL.
 
 ![chall_files](img/chall_files.png)
