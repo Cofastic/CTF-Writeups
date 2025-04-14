@@ -1,11 +1,15 @@
 ## Hotline Miami
 -------------
 ![chall](img/chall.png)
+
 The Hotline Miami challenge falls under the category of steganography. The challenge provided a GitHub repository containing multiple files, with a challenge description **suggesting we needed to extract hidden information.**
+
 ![repository](img/repository.png)
+
 ![description](img/description.png)
 
 We will first look at the “Rooster.jpg” file. A common practice when dealing with steganography challenges is to examine the strings within image files, as they might contain clues or even the flag itself. Upon inspecting the strings in "Rooster.jpg", I found an interesting keyword:
+
 ![richard](img/richard.png)
 
 At the very last line, I discovered the name "**RICHARD**". I instinctively thought this might be a password, so I turned to Steghide, a popular steganography tool capable of extracting files embedded within other files.
