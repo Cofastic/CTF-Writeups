@@ -1,6 +1,7 @@
 Straightforward
 ---------------
 ![chall](img/chall.png)
+
 "Straightforward" is a web exploitation challenge that provides the source code of the web application in a zip file named "straightforward\_player.zip" along with the challenge website URL.
 
 ![chall_files](img/chall_files.png)
@@ -57,7 +58,7 @@ I went to the challenge website and registered with a username to establish a se
 
 I also found out that we could access our session cookies, which would help in **creating a script to simulate simultaneous /claim requests.**
 
-![cookies](img/cookies.png)
+![cookie](img/cookie.png)
 
 I crafted the following JavaScript script to execute in the browser's developer console:
 
