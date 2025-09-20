@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  haproxy:
+    build: haproxy
+    ports:
+      - "8001:8001"
+    links:
+      - "web"
+    environment:
+      - SERVER_HOSTNAME=web
+      - SERVER_PORT=5000
+
+  web:
+    build: app
