@@ -29,11 +29,11 @@ The challenge provides two main contracts:
 
 **Setup.sol** — the deployment/setup contract.
 
-![Setup Contract](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle1.png)
+![Setup Contract](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle2.png)
 
 **Puzzle.sol** — the main puzzle contract with the encryption/decryption logic.
 
-![Puzzle Contract](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle2.png)
+![Puzzle Contract](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle3.png)
 
 #### Encryption/Decryption Analysis
 
@@ -83,11 +83,11 @@ Any one of these values, when passed to `seedVarStateChanging`, will set `seedVa
 
 Below is a Foundry Solidity script to call `seedVarStateChanging` with any one of the solutions:
 
-![Solution Script](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle3.png)
+![Solution Script](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle4.png)
 
 **Output:**
 
-![Output](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle4.png)
+![Output](/2025/Siber%20Siaga%20Code%20Combat%202025/img/puzzle5.png)
 
 ---
 
